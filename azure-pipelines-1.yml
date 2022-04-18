@@ -1,0 +1,13 @@
+# Starter pipeline
+- task: AzureAppServiceSettings@1
+  inputs:
+    azureSubscription: 'Visual Studio Enterprise Subscription – MPN(fa962523-b83e-4ed5-b080-01a2a44ff31a)'
+    appName: 'skhiewladevopsapp'
+    resourceGroupName: 'rg-devops'
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
